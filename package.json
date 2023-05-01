@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "serve": "nodemon server.js",
-    "deploy": "node server.js"
+    "start": "node server.js",
+    "serve": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,8 @@
     "nodemon": "^2.0.22",
     "pg": "^8.10.0",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3"
   }
 }
