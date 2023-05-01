@@ -4,8 +4,13 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
+<<<<<<< HEAD
     "start": "node server.js",
     "serve": "nodemon server.js"
+=======
+    "serve": "nodemon server.js",
+    "start": "node server.js"
+>>>>>>> 1037891e6f8bac1067ac751a34debd85732edeb9
   },
   "author": "",
   "license": "ISC",
